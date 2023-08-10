@@ -6,10 +6,5 @@ public class B extends A{
     {
         return "Method is overridden in Extended class B";
     }
-    public static void main(String[] args)
-    {
-        B b=new B();
-        b.meth();
-        b.meth();
-    }
+
 }
